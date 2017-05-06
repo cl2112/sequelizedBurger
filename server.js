@@ -27,4 +27,5 @@ app.use("/create", routes);
 
 // listen on port 3000
 var port = process.env.PORT || 3000;
+console.log(port);
 app.listen(port);
