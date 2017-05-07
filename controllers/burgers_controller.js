@@ -32,7 +32,7 @@ router.post("/burgers/create", function(req, res) {
 router.put("/burgers/update", function(req, res) {
 
   var updateData = {
-    devoured: true;
+    devoured: true
   }
 
   db.Burger.update(updateData, {
